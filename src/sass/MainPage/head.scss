@@ -1,0 +1,34 @@
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    margin: 0;
+    z-index: 1000;
+}
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    width: 1170px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #fff;
+    &_nav_menu {
+        align-self: center;
+        width: 550px;
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            li {
+                list-style: none;
+                a {
+                    font: 1em sans-serif;
+                    cursor: pointer;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
